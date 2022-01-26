@@ -1,0 +1,28 @@
+{
+  "name": "webdelegate-server",
+  "version": "0.0.1",
+  "description": "Node.js server-side application for Webdelegate",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vedulabs/webdelegate-server.git"
+  },
+  "keywords": [
+    "server-side rendering"
+  ],
+  "author": "vedulabs.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vedulabs/webdelegate-server/issues"
+  },
+  "homepage": "https://github.com/vedulabs/webdelegate-server#readme",
+  "dependencies": {
+    "puppeteer": "^13.1.1",
+    "query-string": "^7.1.0",
+    "ws": "^8.4.2"
+  }
+}
